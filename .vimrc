@@ -1,14 +1,15 @@
 
 "----- options -----"
 
-set ts=4
-set number
+set ts=4													" tab size
+set number													" line numbers
+set hlsearch												" highlight search terms
 
-syntax enable
+syntax enable												" enable syntax highlighting
 
-colorscheme zellner
+colorscheme zellner											" color scheme
 
-let mapleader=","
+let mapleader=","											" set leader namespace
 
 
 "----- mappings -----"
